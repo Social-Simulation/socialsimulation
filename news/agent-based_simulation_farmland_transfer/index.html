@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        hexo-theme-suka © SukkaW
+        GitHub: https://github.com/SukkaW/hexo-theme-suka
+    -->
+
+    <!-- ### Resource Hint ### -->
+
+    <!-- ## DNS Prefetch ## -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+<!-- busuanzi -->
+
+
+<!-- comment -->
+
+
+
+
+
+
+    <link rel="dns-prefetch" href="//cdn1.lncld.net">
+
+
+<!-- analytics -->
+
+    <link rel="dns-prefetch" href="//hm.baidu.com">
+
+
+
+
+
+
+
+    <!-- ## Preload ## -->
+    
+
+
+
+
+    <!-- ### Meta & Title & Info ### -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+    <meta name="renderer" content="webkit">
+
+    <!-- Title -->
+    <title>从经验识别走向机制生成 | Asian Social Simulation Association</title>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image&#x2F;ico" href="/img/favicon.ico">
+
+    <!-- ### Import File ### -->
+    <link rel="stylesheet" href="/css/spectre.min.css"><style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    #post-content a,
+    #post-content a:hover,
+    #post-content a:focus,
+    #post-content a:visited {
+        color: #005eb9;
+        opacity: 1;
+    }
+
+    
+
+    .post-entry .card-body a {
+        color: #0070ff;
+    }
+
+    .avatar {
+        background: #444;
+    }
+
+    .navbar-link,
+    .navbar-link:visited,
+    .timeline .timeline-item .timeline-icon.icon-lg {
+        color: #0070ff;
+    }
+
+    .navbar-link:hover {
+        color: #0070ff;
+        opacity: .8;
+    }
+
+    #search-input .btn,
+    #disqus_click_btn,
+    #disqus-switch-to-direct,
+    #disqus-loadmore-button {
+        background: #727e96;
+        border-color: #727e96;
+        color: #fff;
+    }
+
+    #post-toc a.post-toc-link,
+    #post-toc a.post-toc-link:visited,
+    .share-menu.menu .menu-item>a {
+        color: #727e96;
+    }
+
+    .share-menu.menu .menu-item>a:hover,
+    .share-menu.menu .menu-item>a:focus,
+    .share-menu.menu .menu-item>a:visited {
+        color: #50596c;
+        background: #f8f9fa;
+        opacity: .85;
+    }
+</style>
+<link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/swiper/swiper-bundle.min.css"><link rel="stylesheet" href="/css/bootstrap.min.css"><link rel="stylesheet" href="/css/gallery.min.css"><link rel="stylesheet" href="/css/post.min.css"><link rel="stylesheet" href="/css/application.min.css"><script src="/swiper/swiper-bundle.min.js"></script>
+
+
+
+
+
+
+
+
+    <!-- Prettify Theme -->
+    
+    <link rel="preload" href="/css/highlight/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/highlight/github.min.css"></noscript>
+
+
+
+
+
+<script>
+/*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+!function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("data-loadcss")||(o.setAttribute("data-loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+</script>
+
+
+    <!-- ### Site Verification ### -->
+    
+
+
+    <meta name="mobile-web-app-capable" content="yes"><meta name="application-name" content="Asian Social Simulation Association"><meta name="msapplication-starturl" content="https://socialsimulation.net"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Asian Social Simulation Association"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- ### The Open Graph & Twitter Card Protocol ### -->
+    <meta property="og:title" content="从经验识别走向机制生成 | Asian Social Simulation Association"><meta property="og:site_name" content="Asian Social Simulation Association"><meta property="og:type" content="article"><meta property="og:url" content="https://socialsimulation.net/news/agent-based_simulation_farmland_transfer/"><meta property="og:locale" content="en"><meta name="description" content="从经验识别走向机制生成——评熊航等《农户自发性土地流转行为机制研究：仿真、验证与应用》  吕鹏    （亚洲社会仿真学会主席、北京大学武汉人工智能研究院副院长、教育部“长江学者”）    2023年8月25日    一、引言 熊航、江鹏、鞠聪、彭开丽发表于《管理世界》2023年第6期的《农户自发性土地流转行为机制研究：仿真、验证与应用》，虽然以农户土地流转行为为经验对象，但其学术价值并不主要体现在 - John Doe - Asian Social Simulation Association"><meta property="article:published_time" content="2023-08-25T15:18:01.000Z"><meta property="article:modified_time" content="2026-03-20T23:25:57.893Z"><meta property="og:updated_time" content="2026-03-20T23:25:57.893Z"><meta property="article:author" content="John Doe"><meta name="twitter:card" content="summary">
+
+    
+
+    <!-- ### Canonical link ### -->
+    <link rel="canonical" href="https://socialsimulation.net/news/agent-based_simulation_farmland_transfer/">
+
+    <meta name="generator" content="Hexo 6.3.0">
+
+    <!-- ### Analytics ### -->
+    
+
+
+    <script>
+    var _hmt = _hmt || [];
+    (function() {var hm = document.createElement('script');
+    hm.src = 'https://hm.baidu.com/hm.js?0ac7cb27455d30606a3cbbc5645ebbb7';
+    var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+
+
+
+
+    <script charset="UTF-8" id="LA_COLLECT" src="https://sdk.51.la/js-sdk-pro.min.js"></script>
+<script>window.LA?.init({id: "JxQz6fSsfLwvfWVa",ck: "JxQz6fSsfLwvfWVa,",autoTrack:true,hashMode:true})</script>
+
+
+
+
+    <!-- ### Structured Data ### -->
+    
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "url": "https://socialsimulation.net/news/agent-based_simulation_farmland_transfer/",
+    "@type": "BlogPosting",
+    "logo": "https://socialsimulation.net/img/favicon.ico",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://socialsimulation.net/news/agent-based_simulation_farmland_transfer/"
+    },
+    "headline": "从经验识别走向机制生成 | Asian Social Simulation Association",
+    
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://socialsimulation.net/img/favicon.ico"
+    },
+    
+    "datePublished": "2023-08-25T15:18:01.000Z",
+    "dateModified": "2026-03-20T23:25:57.893Z",
+    "author": {
+        "@type": "Person",
+        "name": "John Doe",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://socialsimulation.net/img/default_avatar.png"
+        },
+        "description": ""
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Asian Social Simulation Association",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://socialsimulation.net/img/favicon.ico"
+        }
+    },
+    
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://socialsimulation.net/search?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+    },
+    
+    "keywords": "",
+    "description": "从经验识别走向机制生成——评熊航等《农户自发性土地流转行为机制研究：仿真、验证与应用》  吕鹏    （亚洲社会仿真学会主席、北京大学武汉人工智能研究院副院长、教育部“长江学者”）    2023年8月25日    一、引言 熊航、江鹏、鞠聪、彭开丽发表于《管理世界》2023年第6期的《农户自发性土地流转行为机制研究：仿真、验证与应用》，虽然以农户土地流转行为为经验对象，但其学术价值并不主要体现在 - John Doe - Asian Social Simulation Association"
+}
+</script>
+
+<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+
+
+    <!-- ### Custom Head ### -->
+    
+</head>
+
+
+    <body class="body">
+            
+
+            <!-- ### Main content ### -->
+            <!-- ## Header ##-->
+<header>
+    <nav class="navbar-section text-center">
+        <div class="h_nav-section">
+                <div class="h_nav_header">
+                        <span class="goto_logo">
+                                <a href="/"><img class="h_logo goto_logo" alt="Asian Social Simulation Association" src="/img/logo/logo202308.png?t=1" ></a>
+                        </span>
+                </div>
+        </div>
+        <div class="h_nav_tree_wrapper">
+        <div class="h_nav-section h_nav_tree">
+                <ul class="first">
+                        <li>
+                                <a href="/">
+                                        <div>
+                                                <div class="enName">Home</div>
+<!--                                                <div class="cnName">首页</div>-->
+                                        </div>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/ASSA/">
+                                        <div>
+                                                <div class="enName">ASSA</div>
+                                        </div>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/news/">
+                                        <div>
+                                                <div class="enName">News</div>
+<!--                                                <div class="cnName">新闻动态</div>-->
+                                        </div>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/events/">
+                                        <div>
+                                                <div class="enName">Events</div>
+<!--                                                <div class="cnName">学术活动</div>-->
+                                        </div>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/SIG/">
+                                        <div>
+                                                <div class="enName">Special Interest Groups</div>
+                                        </div>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/trainings/">
+                                        <div>
+                                                <div class="enName">Trainings</div>
+<!--                                                <div class="cnName">方法培训</div>-->
+                                        </div>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/awards/">
+                                        <div>
+                                                <div class="enName">Awards</div>
+                                        </div>
+                                </a>
+                        </li>
+                        <li>
+                                <a href="/join/">
+                                        <div>
+                                                <div class="enName">Get Involved</div>
+<!--                                                <div class="cnName">加入我们</div>-->
+                                        </div>
+                                </a>
+                        </li>
+                </ul>
+        </div>
+        </div>
+</nav>
+<script>
+        function addActive() {
+                const childrenList = document.querySelectorAll('.h_nav_tree .first>li');
+                childrenList.forEach(item => item.classList.remove('active'));
+                childrenList.forEach(item => {
+                        const hrefList = [].map.call(item.querySelectorAll('a'), (it) => it.getAttribute('href'));
+                        const isActive = hrefList.some(item => item === location.pathname);
+                        if (isActive) {
+                                item.classList.add('active');
+                        }
+                });
+
+        }
+
+        addActive();
+</script>
+
+    
+</header>
+
+            
+    <!-- ## Post ## -->
+    <div class="post-container">
+    <div id="post-card" class="card">
+        
+        <div class="card-item-container">
+            <div class="card-inner-cell">
+                <!-- # Post Header Info # -->
+                
+                <div class="card-body">
+                    
+                    <article id="post-content">
+                        <h2 id="从经验识别走向机制生成——评熊航等《农户自发性土地流转行为机制研究：仿真、验证与应用》"><a href="#从经验识别走向机制生成——评熊航等《农户自发性土地流转行为机制研究：仿真、验证与应用》" class="headerlink" title="从经验识别走向机制生成——评熊航等《农户自发性土地流转行为机制研究：仿真、验证与应用》"></a><h1 class="post_flex_center_center">从经验识别走向机制生成</h1><h2 class="post_flex_center_center">——评熊航等《农户自发性土地流转行为机制研究：仿真、验证与应用》</h2></h2> <p class="post_flex_center_center post_flex_p" style="margin-bottom: 0;">
+吕鹏
+</p>
+ <p class="post_flex_center_center post_flex_p" style="margin-bottom: 0;">
+（亚洲社会仿真学会主席、北京大学武汉人工智能研究院副院长、教育部“长江学者”）
+</p>
+ <p class="post_flex_center_center post_flex_p" style="margin-bottom: 0;">
+2023年8月25日
+</p>
+
+
+<h4 id="一、引言"><a href="#一、引言" class="headerlink" title="一、引言"></a>一、引言</h4><p class="post_textIntend2">
+熊航、江鹏、鞠聪、彭开丽发表于《管理世界》2023年第6期的《农户自发性土地流转行为机制研究：仿真、验证与应用》，虽然以农户土地流转行为为经验对象，但其学术价值并不主要体现在对某一具体议题的补充性讨论，而更集中地体现为一种研究方法和分析范式的推进。若将其置于国内社会科学研究的发展脉络中加以考察，这篇论文更值得重视的意义，在于它以一个具有现实关怀和经验基础的中国问题为载体，较为系统地展示了微观仿真、多主体模拟等计算社会科学方法在机制解释、经验验证与政策分析中的应用潜力。就整体完成度而言，这是一篇方法意识鲜明、论证较为扎实、具有较强学术辨识度的优秀论文。
+值得注意的是，该文发表于《管理世界》这样的综合性社科顶级期刊，其意义在很大程度上已超出单篇论文所处理的具体问题本身，而具有更为明显的方法论象征意义。长期以来，在国内主流社会科学研究中，计算仿真和社会模拟方法虽然并非全然缺席，但总体上仍处于相对边缘的位置。该文以较为完整的研究形态进入顶级综合性期刊的学术空间，表明微观仿真方法、社会模拟方法正在凭借其对复杂行为机制和动态过程的解释能力，逐步获得更高程度的认可。若从方法演进的角度看，这一变化无疑是值得重视的。
+</p>
+
+<h4 id="二、经验议题背后的方法论关怀"><a href="#二、经验议题背后的方法论关怀" class="headerlink" title="二、经验议题背后的方法论关怀"></a>二、经验议题背后的方法论关怀</h4><p class="post_textIntend2">
+从题目和经验对象来看，本文讨论的是农户自发性土地流转行为机制，但若进一步考察其问题设定和分析逻辑，便可以发现，作者真正关注的重点并不在于对土地流转这一专题做出一般性的经验补充，而在于借助这一具有现实特征的经验场景，探讨微观主体行为如何在一定约束条件和互动结构下被生成，并进一步累积为宏观可观察的总体格局。就此而言，文章虽然处理的是一个具体问题，但其关怀显然具有更强的抽象性和方法论指向。
+这一研究取向，与传统经验研究之间存在明显差异。长期以来，社会科学中的大量经验研究主要依赖统计分析和计量方法，通过变量之间的关系识别影响因素、检验因果效应，从而回答“哪些因素影响了何种结果”这一类型的问题。这一路径在现代社会科学研究中具有坚实基础，也构成了主流经验研究的重要方法支撑。然而，对于那些具有显著异质性、互动性、动态性和路径依赖特征的社会现象而言，单纯依赖变量关系分析，往往难以充分揭示结果究竟是如何在微观层面被生成出来的。熊航等人的研究，正是在这一意义上超越了一般意义上的经验识别，将分析重心由结果层面推进到机制层面，由静态关系推进到动态过程，由均值效应推进到异质主体互动，从而使文章更接近计算社会科学和社会仿真研究所强调的生成性解释路径。
+因此，从研究定位上看，这篇论文虽然处理的是一个中国经验问题，但其更深层的学术意义，在于它将这一问题提升为一个可供机制建模和系统分析的方法论案例，并借此展示社会科学研究如何从“解释相关性”进一步走向“解释生成性”。
+</p>
+
+<h4 id="三、多主体仿真的引入及其解释优势"><a href="#三、多主体仿真的引入及其解释优势" class="headerlink" title="三、多主体仿真的引入及其解释优势"></a>三、多主体仿真的引入及其解释优势</h4><p class="post_textIntend2">
+该文最值得重视的创新之一，在于对多主体仿真方法的较为规范的引入与运用。多主体仿真之所以在近年来受到越来越多关注，根本原因在于，它能够较好处理传统经验方法相对不易把握的一类问题，即异质主体在局部互动中所产生的非线性反馈、路径依赖以及宏观层面的涌现性结果。现实中的社会经济系统，通常并不是由若干彼此独立、线性反应的个体所构成，而是在主体差异、行为规则、互动结构和外部环境共同作用下持续演化的复杂系统。对于这类问题，如果仅仅依赖传统的静态模型和平均效应分析，往往难以完整还原其过程特征和生成逻辑。
+熊航等人的论文较为充分地体现了这一方法的解释优势。文章并未停留在对影响因素的分类归纳或统计识别上，而是进一步通过多主体仿真框架，将个体行为规则、决策逻辑、环境约束与宏观结果有机联结起来，试图说明某种可观察的总体格局究竟是如何由大量微观行为持续作用而逐步生成的。换言之，作者的分析重点并不在于对既有结果作事后解释，而在于构造一个能够生成这一结果的机制系统，并通过这一系统解释经验事实何以如此呈现。正是在这一层面上，该文体现出鲜明的计算仿真特征，其核心不在于技术形式的复杂，而在于通过模型化方式重建社会过程本身。
+更为可贵的是，作者并未将仿真方法处理为一种脱离经验现实的形式化演绎工具，而是努力通过参数校准、外部验证和情景应用等方式，使模型建构与经验事实之间形成较为紧密的联系。社会仿真研究之所以常常面临质疑，一个重要原因在于，若缺乏经验约束，模型容易沦为逻辑上自洽但与现实脱节的封闭系统；而该文通过“机制建模—经验校准—结果验证—政策应用”的研究链条，在一定程度上克服了这一风险，使仿真方法不仅能够用于理论推演，而且能够进入现实问题分析和政策讨论之中。由此看来，该文的意义并不仅仅在于“使用了仿真方法”，而在于作者较为成功地展示了仿真方法如何与社会科学经验研究形成互补关系，并在复杂社会现象的解释中发挥其独特功能。
+</p>
+
+<h4 id="四、从变量分析到生成性解释的范式转向"><a href="#四、从变量分析到生成性解释的范式转向" class="headerlink" title="四、从变量分析到生成性解释的范式转向"></a>四、从变量分析到生成性解释的范式转向</h4><p class="post_textIntend2">
+如果说这篇论文最值得学界重视的地方何在，那么其根本意义恐怕并不在于提出了某项新的经验发现，而在于它较为清晰地呈现了一种不同于传统变量分析范式的研究路径。在传统的经验分析框架中，研究者通常将社会现象分解为若干可测量变量之间的关系，并通过估计模型识别某类变量对某种结果的影响程度。这种研究方式的主要优势，在于其识别逻辑相对清晰、估计结果便于比较，也因此成为现代社会科学经验研究的核心组成部分。然而，这一路径在面对复杂系统时也存在内在边界，即它更擅长说明“X是否影响Y”，却未必能够充分回答“Y究竟是在什么行为规则、互动结构和环境条件下被生成出来的”。
+计算仿真研究所代表的，正是另一种更强调系统生成与过程解释的范式。在这一范式下，研究者不再满足于识别变量之间的关系，而是进一步把社会现象理解为由异质主体、行为规则、互动机制和外部环境共同作用所形成的动态系统，并据此追问宏观现象如何由微观层面的持续互动所涌现出来。前一种研究方式强调效应识别，后一种研究方式强调机制生成；前者更适合处理变量间的净关系，后者则更适合把握复杂系统中的行为过程与演化逻辑。熊航等人的论文之所以具有方法论意义，正是因为它在中国经验研究语境中较为鲜明地呈现了后一种研究方式的可行性及其解释优势。
+从国内社会科学研究的发展状况来看，这一范式意义尤为值得强调。熊航教授并非主要从事土地流转或农业专题研究的传统领域专家，而是长期耕耘于社会仿真、计算社会科学等领域，在微观仿真建模、复杂社会系统模拟以及相关方法应用方面具有较为深厚的积累。正因如此，这篇论文更适宜从方法论而非专题领域的角度加以评价。无论是研究问题的抽象方式、模型构建的逻辑层次，还是经验校准与机制解释之间的衔接，都可以看出作者对社会仿真方法并非停留于工具层面的使用，而是建立在长期方法训练基础上的较为熟练的把握能力。也正是在这种积累的支撑下，文章才能够避免陷入单纯技术展示，而始终保持较为明确的社会科学问题意识。
+</p>
+
+<h4 id="五、对国内社会科学研究的启示"><a href="#五、对国内社会科学研究的启示" class="headerlink" title="五、对国内社会科学研究的启示"></a>五、对国内社会科学研究的启示</h4><p class="post_textIntend2">
+从更广的学术层面来看，这篇论文对于国内社会科学研究具有较强的启发意义。对于大量复杂社会经济现象而言，单纯依赖传统经验方法往往难以充分揭示其深层机制，尤其是在面对异质主体互动、动态调整、制度反馈与宏观涌现等问题时，研究者需要新的分析工具与解释框架。多主体仿真和微观模拟方法之所以具有越来越强的吸引力，正是因为它们能够在一定程度上弥补传统变量分析在过程刻画和机制解释方面的不足，并为复杂社会系统研究提供一种更加接近现实运行方式的分析路径。
+熊航等人的研究表明，微观仿真方法并非只能停留在理论建模或概念实验层面，而完全可以进入现实经验研究之中，服务于机制解释、情景分析乃至政策评估。对于中国社会科学而言，这一启示具有现实针对性。未来的高水平研究，不应仅仅停留于识别策略的不断精细化，也应更加重视复杂系统中的生成性问题；不仅要强调“识别得更准确”，也应努力实现“解释得更深入”。从这个意义上说，计算仿真并不是传统经验研究的替代方案，而是一种能够拓展主流社会科学解释能力的重要补充维度，尤其适用于那些难以通过静态数据直接还原、但又必须通过过程机制才能加以理解的问题。
+</p>
+
+<h4 id="六、结语"><a href="#六、结语" class="headerlink" title="六、结语"></a>六、结语</h4><p class="post_textIntend2">
+总体而言，熊航等《农户自发性土地流转行为机制研究：仿真、验证与应用》是一篇具有鲜明方法论意义的优秀论文。它的重要价值，并不主要在于对某一专题领域的经验事实做出补充，而在于以一个现实而具体的问题为依托，较为系统地展示了多主体仿真和计算社会科学方法如何进入主流社会科学研究，如何服务于机制解释、经验验证与政策分析，并在这一过程中拓展社会科学对复杂现象的解释边界。
+该文发表于《管理世界》这样的综合性社科顶级期刊，本身即具有一定的学术象征意义。它所传递出的重要信息在于，国内社会科学研究正在逐步突破单一变量分析和静态识别的路径依赖，开始更加重视复杂社会系统中的微观机制、动态过程与生成逻辑。若从这一角度加以评价，这篇论文不仅是一项完成度较高的具体研究成果，也可视为国内计算仿真研究范式逐步进入主流学术视野的一个具有代表性的案例。
+</p>
+
+
+                    </article>
+                    
+
+
+    <blockquote id="date-expire-notification" class="post-expired-notify">This article was last updated on <span id="date-expire-num"></span> days ago, and the information described in the article may have changed.</blockquote>
+    <script>
+    (function() {
+        var dateUpdate = Date.parse("2026-03-20");
+        var nowDate = new Date();
+        var a = nowDate.getTime();
+        var b = a - dateUpdate;
+        var daysUpdateExpire = Math.floor(b/(24*3600*1000));
+        if (daysUpdateExpire >= 120) {
+            document.getElementById('date-expire-num').innerHTML = daysUpdateExpire;
+        } else {
+            document.getElementById('date-expire-notification').style.display = 'none';
+        }
+    })();
+    </script>
+
+
+
+</p>
+<p class="post-footer-info mb-0 pt-2">
+
+
+
+
+</p>
+
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+            <!-- ### Footer ### -->
+            <footer class="text-center">
+    <!-- footer copyright -->
+    
+        <p class="footer-copyright mb-0">Copyright&nbsp;©&nbsp;<span id="copyright-year"></span>
+            <a class="footer-copyright-a" href="https://socialsimulation.net">Asian Social Simulation Association</a><span> - All Rights Reserved.</span>
+        </p>
+
+    <!-- footer custom text -->
+    <p class="footer-text mb-0">
+    
+    </p>
+    <!-- footer develop info -->
+    <p class="footer-develop mb-0">
+        
+
+        
+        
+    </p>
+    <!-- footer 51.la track info -->
+    <script>
+      function _51Track(type, name) {
+        window.LA?.track(type, {[name]: new Date().toLocaleString()})
+      }
+    </script>
+</footer>
+
+
+        <!-- ### Import File ### -->
+        <!-- ### Footer JS Import ### -->
+
+<script>
+
+    
+window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 50
+};
+document.getElementById('copyright-year').textContent = new Date().getFullYear();
+console.log('\n %c Suka Theme (hexo-theme-suka) | © SukkaW | Verision 1.3.3 %c https://github.com/SukkaW/hexo-theme-suka \n', 'color: #fff; background: #444; padding:5px 0;', 'background: #bbb; padding:5px 0;');
+
+</script>
+
+<script src="/lib/vanilla-lazyload/lazyload.min.js" async></script>
+
+
+
+<!-- Comment -->
+
+    
+        
+    
+
+
+<!-- ### Custom Footer ### -->
+
+    </body>
+
+</html>
